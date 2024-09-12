@@ -1,0 +1,14 @@
+@import "var";
+
+.list {
+  width: 350px;
+
+  .mat-mdc-subheader {
+    padding-left: $padding-md;
+    padding-right: $padding-md;
+  }
+}
+
+.subline {
+  color: #999999;
+}

@@ -1,0 +1,16 @@
+@import "var";
+
+.button {
+  border-radius: 0;
+  padding: 0;
+  min-width: $toolbar-button-width;
+  height: 100%;
+
+  .mat-icon {
+    font-size: 24px;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin-right: 0;
+  }
+}

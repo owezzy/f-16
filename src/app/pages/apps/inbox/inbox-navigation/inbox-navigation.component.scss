@@ -1,0 +1,32 @@
+@use 'sass:math';
+@import "var";
+
+.navigation {
+  margin-top: $spacing;
+
+  .mat-mdc-list-item {
+    cursor: pointer;
+    margin-top: math.div($spacing, 3);
+    margin-bottom: math.div($spacing, 3);
+    position: relative;
+    outline: none;
+    border-radius: $border-radius;
+
+    .mat-icon {
+      margin-right: math.div($spacing, 1.5);
+    }
+
+    .mat-mdc-list-item-title {
+      font-weight: 500;
+    }
+
+    .mat-icon, .mat-mdc-list-item-title {
+      color: inherit;
+    }
+  }
+
+  .mat-divider {
+    margin-top: math.div($spacing, 3);
+    margin-bottom: math.div($spacing, 3);
+  }
+}

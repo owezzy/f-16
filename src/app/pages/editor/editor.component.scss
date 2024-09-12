@@ -1,0 +1,12 @@
+@import "var";
+
+.editor {
+  height: 100%;
+  width: 100%;
+}
+
+.quill {
+  border-bottom-left-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+  overflow: hidden;
+}
